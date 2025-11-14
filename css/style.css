@@ -128,6 +128,9 @@ nav{
 
 /* footer */
 
+
+
+
 footer article{
     justify-items: center;
     align-items: center;
@@ -136,6 +139,7 @@ footer article{
     padding: 0.5rem 0;
     
      p{
+        
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -161,6 +165,12 @@ footer ul{
 }
 
 .credit{
+
+    p{
+        text-align: right;
+    }
+
+    
     a {       
         color: var(--light);
             &:hover, &:visited{
@@ -177,9 +187,12 @@ footer ul{
 .publisher{
     display: grid;
     gap: 1rem;
+   
+
 }
     
 .policies{
+    
     a{
         color: var(--yellow);
            
@@ -187,6 +200,51 @@ footer ul{
                  color: var(--light);
                 border-bottom: 1px solid var(--yellow);
         }
+    }
+}
+
+
+
+@media(min-width:800px){
+
+    footer section{
+        display: grid;
+        grid-template-rows: 1fr auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "publish policy credit"
+        "copy-right copy-right copy-right";
+        gap:0.5rem 0.2rem;
+
+        padding: 1rem 0;
+
+    }  
+
+    .copy-right{
+        grid-area: 2 / 2;
+    }
+
+    .policies{
+        grid-area: policy;
+    
+    }
+
+    .credit{
+        grid-area: credit;
+    }
+
+    .publisher{
+         grid-area: publish;
+        justify-items: start;
+
+        ul{
+            justify-content: start;
+        }
+
+    }
+
+    .credit{
+        justify-items:end ;
     }
 }
 
