@@ -128,14 +128,14 @@ nav{
 
 /* footer */
 
-footer{
+footer article{
     justify-items: center;
     align-items: center;
     text-align: center;
     gap: 1rem;
     padding: 0.5rem 0;
     
-    > p{
+     p{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -147,7 +147,8 @@ footer{
 footer ul{
     display: flex;
     place-content: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
     width: 100%;
     
     > li{
@@ -171,6 +172,11 @@ footer ul{
     p:not(a){
         color: var(--yellow);
     }
+}
+
+.publisher{
+    display: grid;
+    gap: 1rem;
 }
     
 .policies{
