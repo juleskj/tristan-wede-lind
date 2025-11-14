@@ -1,0 +1,94 @@
+[
+    {
+        "tourDate": "2023, December 12", 
+        "conName": "Workshop Responsive Design Strategies for Modern Websites", 
+        "tourRole": "Workshop", 
+        "conLocation": "Copenhagen, Denmark", 
+        "conCenter": "TBD" 
+    }, 
+    { 
+        "tourDate": "2024, January 15-17", 
+        "conName": "Developer\"s Paradise confrence", 
+        "tourRole": "Panelist", 
+        "conLocation": "Miami, FL", 
+        "conCenter": "Miami Convention Center" 
+    }, 
+    { 
+        "tourDate": "2024, January 22-23", 
+        "conName": "CodeCraft Workshop", 
+        "tourRole": "Guest Instructor", 
+        "conLocation": "New York City, NY", 
+        "conCenter": "TBD" 
+    }, 
+    { 
+        "tourDate": "2024, February 5-6", 
+        "conName": "Design & Develop Summit", 
+        "tourRole": "Featured Speaker", 
+        "conLocation": "Austin, TX", 
+        "conCenter": "Austin Convention Center"
+    }, 
+    { 
+        "tourDate": "2024, February 15", 
+        "conName": "Workshop \"Advanced JavaScript Techniques\"", 
+        "tourRole": "Workshop", 
+        "conLocation": "Copenhagen, Denmark", 
+        "conCenter": "TBD"
+    }, 
+    { 
+        "tourDate": "2024, March 10-12",
+        "conName": "WebMasters Expo", 
+        "tourRole": "Keynote Speaker", 
+        "conLocation": "Las Vegas, NV", 
+        "onferenceCenter": "Las Vegas Convention Center" 
+    }, 
+    { 
+        "tourDate": "2024, March 18", 
+        "conName": "Workshop \"Mastering CSS Grid Layouts\"", 
+        "tourRole": "Workshop", 
+        "conLocation": "Copenhagen, Denmark", 
+        "conCenter": "TBD" 
+    }, 
+    { 
+        "tourDate": "2024, April 5", 
+        "conName": "Workshop \"Optimizing Performance in Web Applications\"", 
+        "tourRole": "Workshop", 
+        "conLocation": "Copenhagen, Denmark", 
+        "conCenter": "TBD" 
+    },
+    {    
+        "tourDate": "2024, April 19-20",       
+        "conName": "Frontend Focus confrence", 
+        "tourRole": "Panel Moderator", 
+        "conLocation": "Seattle, WA", 
+        "conCenter": "Washington State Convention Center" 
+    }, 
+    { 
+        "tourDate": "2024, May 8-9", 
+        "conName": "Developer\"s Summit", 
+        "tourRole": "Featured Speaker", 
+        "conLocation": "Chicago, IL",
+        "conCenter": "McCormick Place" 
+    }, 
+    { 
+        "tourDate": "2024, May 15-16", 
+        "conName": "WebTech Summit", 
+        "tourRole": "Keynote Speaker", 
+        "conLocation": "Boston, MA", 
+        "conCenter": "Hynes Convention Center" 
+    }, 
+    { 
+        "tourDate": "2024, June 6", 
+        "conName": "Workshop \"Building Progressive Web Apps\"", 
+        "tourRole": "Workshop", 
+        "conLocation": "Copenhagen, Denmark", 
+        "conCenter": "Den Sorte Diamant" 
+    }, 
+    { 
+        "tourDate": "2024, June 20", 
+        "conName": "Workshop \"Mastering React: Best Practices and Advanced Techniques\"", 
+        "tourRole": "Workshop", 
+        "conLocation": "Aarhus, Denmark", 
+        "conCenter": "TBD" 
+    }
+
+]

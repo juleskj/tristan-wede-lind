@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+
+        <img class="hidden-mobile" src="/img/lind.png" alt="">
+        <section>
+            <h1>Tristan Wede Lind</h1>
+            <h2 class="sub-heading">web developer and author</h2>
+        </section>
+
+        <section>
+            <select name="pets" id="pet-select">
+                <option value="EN">EN</option>
+                <option value="DK">DK</option>
+            </select>
+        </section>
+    </header>
+    <nav id="menu" class="full-bleed">
+        <ul>
+            <li><a data-target="home_page" class="active" href="#">Home</a></li>
+            <li><a data-target="on_tour_page" href="#">On tour</a></li>
+            <li><a data-target="books_page" href="#">Books</a></li>
+            <li><a data-target="contact_page" href="#">Contact</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section id="home_page" class="page">
+            <article class="new-release-container">
+                <div class="new-release">
+                    <a href="#">NEW RELEASE</a>
+                    <h2>Advanced PHP: From Zero to Hero</h2>
+                    <p>&copy;2023 KEA Publishing</p>
+                </div>
+
+                <img src="img/book_php_preview.png" alt="">
+            </article>
+            <article class="big-bio">
+                <p>A Copenhagen native, Tristan Wede Lind has established himself as a leading authority in web
+                    development,
+                    captivating audiences worldwide with his profound knowledge of various technologies and
+                    methodologies.
+                    With a career spanning over two decades, Lind has honed his skills working for industry giants,
+                    where he
+                    contributed to cutting-edge projects that pushed the boundaries of web development.
+                </p>
+                <p>
+                    Lind's latest achievements showcase his commitment to advancing the field. Through meticulous
+                    research
+                    and
+                    hands-on experience, he has developed novel approaches to web design, user experience optimization,
+                    and
+                    responsive development, ensuring that websites and applications deliver immersive and intuitive
+                    experiences
+                    across devices.
+                </p>
+                <p>
+                    As an accomplished author, Lind has authored numerous critically acclaimed books that serve as
+                    essential
+                    guides for aspiring web developers and industry professionals alike. His publications, revered for
+                    their
+                    clarity, depth, and practicality, have garnered widespread acclaim and have been translated into
+                    multiple languages, solidifying his reputation as an influential figure in the global web
+                    development
+                    community.
+
+                </p>
+                <blockquote>
+                    <p> Tristan Wede Lind's books on web development are an invaluable resource for both novices and
+                        seasoned
+                        professionals. His comprehensive yet accessible approach demystifies complex concepts, providing
+                        practical guidance that translates directly into real-world success. Lind's expertise shines
+                        through
+                        in
+                        every page, making his works an indispensable addition to any developer's library.
+                        <br><br>
+                        <span>
+                            The Tech Tribune
+                        </span>
+                    </p>
+
+                </blockquote>
+                <p>
+                    In addition to his professional accomplishments, Lind is known for his dedication to sharing his
+                    expertise through conferences, workshops, and online platforms. As a sought-after speaker, he has
+                    enlightened audiences with his insightful talks, empowering developers to embrace emerging
+                    technologies
+                    and adapt to the ever-evolving digital landscape.
+                </p>
+
+            </article>
+            <article>
+                <article class="small-tablet-hidden home-book">
+
+                    <img src="img/book_php.png" alt="book cover of Advanced PHP">
+                    <h3>Advanced PHP</h3>
+                    <p class="sub-heading">From Zero to Hero</p>
+                    <p>2023</p>
+
+                </article>
+                <article class="small-tablet-hidden home-book">
+
+                    <img src="img/book_css.png" alt="book cover of CSS for Developers">
+                    <h3>CSS for Developers</h3>
+                    <p class="sub-heading"> A Visual Journey</p>
+                    <p>2022</p>
+
+                </article>
+                <article class="big-tablet-hidden home-book">
+
+                    <img src="img/book_js.png" alt="book cover of Advanced JavaScript">
+                    <h3>Advanced JavaScript</h3>
+                    <p class="sub-heading"> Frameworkless</p>
+                    <p>2021</p>
+
+                </article>
+                <article class="big-tablet-hidden home-book">
+
+                    <img src="img/book_programming.png" alt="book cover of Basic Programming">
+                    <h3>Basic Programming</h3>
+                    <p class="sub-heading"> Algorithms and Beyond</p>
+                    <p>2017</p>
+
+                </article>
+
+            </article>
+
+
+        </section>
+        <section id="on_tour_page" class="hide page">
+            <picture>
+                <source srcset="img/tristan_640.jpg 400w,img/tristan_1280.jpg 789w"
+                    sizes="(max-width: 900px) 400px, 800px" />
+
+                <img class="tour-img" src="img/tristan_640.jpg" alt="MDN" />
+            </picture>
+            <section id="js-tour-list">
+                <!-- tour list gets rendered with js here :) -->
+
+            </section>
+
+        </section>
+        <section id="books_page" class="hide page">
+            <section id="books">
+
+                <!-- book list gets rendered with js here :) -->
+
+            </section>
+
+        </section>
+
+        <section id="contact_page" class="hide page">
+            <article class="publisher-article">
+                <img src="img/victoria.png" alt="">
+                <section>
+                    <h3>Publising</h3>
+                    <p>Victoria Marsh (Editor)</p>
+                    <a href="mailto:victoriamarsh@keapublishing.com">victoriamarsh@keapublishing.com</a>
+                    <p>
+                        Phone:<a href="tel:+4407975020028">(+44) 079 7502 0028</a>
+                    </p>
+                </section>
+
+            </article>
+            <article class="agent-article">
+
+                <img src="img/elly.png" alt="">
+                <section>
+                    <h3> Agent</h3>
+                    <p>Elly Houthuijzen</p>
+                    <a href="mailto:elly@houthuijzen.com">elly@houthuijzen.com</a>
+                    <p>Phone:
+                        <a href="tel:+3106-42821232">(+31) 06-42821232</a>
+                    </p>
+                </section>
+
+            </article>
+            <form action="mailto:elly@houthuijzen.com" method="POST">
+                <fieldset>
+                    <legend>Request booking</legend>
+
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" name="booking-name" id="name" required placeholder="your name"
+                            pattern="[A-Za-z]+">
+
+                    </p>
+                    <p>
+                        <label for="email">E-mail address</label>
+                        <input type="email" name="booking-email" id="email" required
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}" size="30" placeholder="your email">
+                    </p>
+                    <p>
+                        <label for="enquiry">enquiry</label>
+                        <textarea name="enquiry" id="enquiry" cols="4" rows="8">here you can wirte a message</textarea>
+                    </p>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <p><img src="img/keapublishing.png" alt="">KEA Publishing, Inc.</p>
+        <ul>
+
+            <li>
+                <img src="img/twitter.png" alt="">
+            </li>
+            <li>
+                <img src="img/linkedin.png" alt="">
+            </li>
+            <li>
+                <img src="img/facebook.png" alt="">
+            </li>
+        </ul>
+        <article class="policies">
+            <p>
+                <a href="#">Privacy Policy</a>
+            </p>
+            <p>
+                <a href="#">Terms of Service</a>
+            </p>
+            <p>
+                <a href="#">Cookie Policy</a>
+            </p>
+
+        </article>
+        <article class="credit">
+
+            <p>
+                Person pictures by
+                <a href=" https://www.pexels.com/@bertellifotografia/">Matheus Bertelli</a>
+            </p>
+
+            <p>
+                Book cover pictures by
+                <a href="https://www.123rf.com/">123RF</a>
+            </p>
+
+            <p>
+                SoMe icons generated with
+                <a href="https://www.powr.io/plugins/social-media-icons/standalone">owr.io</a>
+            </p>
+
+            <p>
+                Microphone icon by
+                <a href="https://www.freepik.com/">Freepik</a>
+            </p>
+            <p>
+                Up arrow icon by
+                <a href="https://www.flaticon.com/authors/yogi-aprelliyanto">Yogi Aprelliyanto</a>
+            </p>
+
+            <p>
+                Texts generated by
+                <a href="https://chat.openai.com/?model=text-davinci-002-render-sha">ChatGPT</a>
+            </p>
+        </article>
+        <p>&copy; 2023 KEA Development</p>
+
+    </footer>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+<template id="book-template">
+    <article class="book-article">
+        <img src="#" alt="">
+        <section>
+            <h3>book title</h3>
+            <p class="sub-heading">book sub heading<span class="published"> book published</span></p>
+            <p class="book-desc">
+                book dec
+            </p>
+
+        </section>
+    </article>
+</template>
+
+<template id="tour-template">
+    <article class="tour-artikle">
+        <p><img src="img/microphone.png" alt=""> <span class="tour-date"></span></p>
+        <h3 class="con-name">conferenceName</h3>
+        <p class="tour-role">tourRole</p>
+        <p class="con-location">conferenceLocation (conferenceCenter)</p>
+    </article>
+</template>
+
+</html>
